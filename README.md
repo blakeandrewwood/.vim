@@ -1,4 +1,4 @@
-## Install
+# Install
 Clone into ~/.vim
 `mkdir ~/.vim`
 `git clone https://github.com/blakeandrewwood/.vim.git ~/.vim`
@@ -12,19 +12,19 @@ Load vim and load .vimrc
 Install plugins
 `:PluginInstall`
 
-## Structure
+# Structure
 
-# General settings
+## General settings
 `.vim/config/settings.vim`
 
-# Keymaps 
+## Keymaps 
 `.vim/config/plugins.vim`
 
-# Color and Font 
+## Color and Font 
 `.vim/config/color.vim`
 
-# Plugins
+## Plugins
 `.vim/config/plugins.vim`
 
-# Plugins Settings
+## Plugins Settings
 `.vim/config/plugins-config.vim`
