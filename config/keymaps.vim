@@ -25,6 +25,7 @@ execute 'inoremap'.Altmap('b').'<S-Left>'
 "
 nnoremap <Esc>l :tabnext<cr>
 nnoremap <Esc>h :tabprev<cr>
+map <Esc>w :tabclose<cr>
 map <Esc>\ :NERDTreeToggle<cr>
 
 "
@@ -35,4 +36,3 @@ map k gk
 map <C-s> :w<cr>
 map <space> /
 map <C-n> :tabnew<cr>
-map <C-w> :tabclose<cr>
